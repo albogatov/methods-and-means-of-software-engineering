@@ -1,0 +1,114 @@
+mkdir Lab2GIT
+cd Lab2GIT
+git init repo
+cd repo
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+
+cp ~/MSP/projectFiles/commit0/* .
+git add .
+git commit -m "r0"
+
+git config --global user.name "blueUser"
+git config --global user.email "blueUser@itmo.ru"
+git checkout -b second
+cp ~/MSP/projectFiles/commit1/* .
+git add .
+git commit -m "r1"
+
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+git checkout master
+cp ~/MSP/projectFiles/commit2/* .
+git add .
+git commit -m "r2"
+
+git config --global user.name "blueUser"
+git config --global user.email "blueUser@itmo.ru"
+git checkout -b third
+cp ~/MSP/projectFiles/commit3/* .
+git add .
+git commit -m "r3"
+
+cp ~/MSP/projectFiles/commit4/* .
+git add .
+git rm _ -f
+git commit -m "r4"
+
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+git checkout master
+cp ~/MSP/projectFiles/commit5/* .
+git add .
+git commit -m "r5"
+
+git config --global user.name "blueUser"
+git config --global user.email "blueUser@itmo.ru"
+git checkout third
+cp ~/MSP/projectFiles/commit6/* .
+git add .
+git commit -m "r6"
+
+cp ~/MSP/projectFiles/commit7/* .
+git add .
+git commit -m "r7"
+
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+git checkout master
+cp ~/MSP/projectFiles/commit8/* .
+git add .
+git commit -m "r8"
+
+cp ~/MSP/projectFiles/commit9/* .
+git add .
+git rm CH6dS59igv.0Fh
+git commit -m "r9"
+
+git config --global user.name "blueUser"
+git config --global user.email "blueUser@itmo.ru"
+git checkout second
+cp ~/MSP/projectFiles/commit10/* .
+git add .
+git commit -m "r10"
+
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+git checkout master
+cp ~/MSP/projectFiles/commit11/* .
+git add .
+git rm 4MTUEE020F.0tZ
+git commit -m "r11"
+
+git config --global user.name "blueUser"
+git config --global user.email "blueUser@itmo.ru"
+git checkout second
+cp ~/MSP/projectFiles/commit12/* .
+git add .
+git commit -m "r12"
+
+git checkout third
+git merge --no-commit second
+cp ~/MSP/projectFiles/commit13/* .
+git rm CH6dS59igv.0Fh
+git add .
+git commit -m "r13"
+
+git config --global user.name "redUser"
+git config --global user.email "redUser@itmo.ru"
+git checkout master
+git merge --no-commit third
+git mergetool
+
+
+:diffg LO
+:wqa
+
+
+cp ~/MSP/projectFiles/commit14/* .
+git add .
+git rm _ -f
+git rm tZ4MTUEE02.Lc0
+git rm WMLc0tZ4MT.Fl3 -f
+git commit -m "r14"
+

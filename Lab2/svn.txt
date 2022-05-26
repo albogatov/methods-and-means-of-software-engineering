@@ -1,0 +1,84 @@
+mkdir Lab2SVN
+cd Lab2SVN
+svnadmin create repo
+svn mkdir -m “structure” file:///home/s312418/MSP/Lab2SVN/repo/trunk file:///home/s312418/MSP/Lab2SVN/repo/branches
+svn checkout file:///home/s312418/MSP/Lab2SVN/repo/trunk mainDir
+cd mainDir
+
+cp ~/MSP/projectFiles/commit0/* .
+svn add *
+svn commit -m "r0" --username redUser
+
+svn copy file:///home/s312418/MSP/Lab2SVN/repo/trunk file:///home/s312418/MSP/Lab2SVN/repo/branches/second -m "Creating second branch" --username blueUser
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/second
+cp ~/MSP/projectFiles/commit1/* .
+svn commit -m "r1" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/trunk 
+cp ~/MSP/projectFiles/commit2/* .
+svn commit -m "r2" --username redUser
+
+svn copy file:///home/s312418/MSP/Lab2SVN/repo/trunk file:///home/s312418/MSP/Lab2SVN/repo/branches/third -m "Creating third branch" --username blueUser
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/third
+cp ~/MSP/projectFiles/commit3/* .
+svn add _
+svn commit -m "r3" --username blueUser
+cp ~/MSP/projectFiles/commit4/* .
+svn rm _
+svn commit -m "r4" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/trunk 
+cp ~/MSP/projectFiles/commit5/* .
+svn commit -m "r5" --username redUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/third
+cp ~/MSP/projectFiles/commit6/* .
+svn commit -m "r6" --username blueUser
+cp ~/MSP/projectFiles/commit7/* .
+svn add CH6dS59igv.0Fh
+svn commit -m "r7" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/trunk
+cp ~/MSP/projectFiles/commit8/* .
+svn add CH6dS59igv.0Fh
+svn commit -m "r8" --username redUser
+cp ~/MSP/projectFiles/commit9/* .
+svn rm CH6dS59igv.0Fh
+svn add 4MTUEE020F.0tZ
+svn commit -m "r9" --username redUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/second
+cp ~/MSP/projectFiles/commit10/* .
+svn commit -m "r10" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/trunk
+cp ~/MSP/projectFiles/commit11/* .
+svn rm 4MTUEE020F.0tZ
+svn add tZ4MTUEE02.Lc0
+svn commit -m "r11" --username redUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/second
+cp ~/MSP/projectFiles/commit12/* .
+svn add CH6dS59igv.0Fh
+svn commit -m "r12" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/branches/third
+svn merge file:///home/s312418/MSP/Lab2SVN/repo/branches/second
+svn resolve --accept=working CH6dS59igv.0Fh
+cp ~/MSP/projectFiles/commit13/* .
+svn add WMLc0tZ4MT.Fl3
+svn rm CH6dS59igv.0Fh
+svn commit -m "r13" --username blueUser
+
+svn switch file:///home/s312418/MSP/Lab2SVN/repo/trunk
+svn merge file:///home/s312418/MSP/Lab2SVN/repo/branches/third
+mc
+tc
+cp ~/MSP/projectFiles/commit14/* .
+svn commit -m "r14" --username redUser
+
+
+
+
+
+

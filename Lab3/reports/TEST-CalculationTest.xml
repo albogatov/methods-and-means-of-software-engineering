@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MSI" name="CalculationTest" skipped="0" tests="26" time="0.059" timestamp="2022-05-16T21:01:31">
+  <properties>
+    <property name="java.vendor" value="OpenLogic-OpenJDK" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-8\jre\lib\resources.jar;C:\Program Files\Java\jdk-8\jre\lib\rt.jar;C:\Program Files\Java\jdk-8\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk-8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-8\jre\lib\jce.jar;C:\Program Files\Java\jdk-8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-8\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.file.Web3" value="C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\build.xml" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant" />
+    <property name="java.runtime.version" value="1.8.0-262-b10" />
+    <property name="ant.file.type.Web3" value="file" />
+    <property name="hamcrest" value="lib/hamcrest-core-1.3.jar" />
+    <property name="user.name" value="lifep" />
+    <property name="test.classes.dir" value="ant/build/test/classes" />
+    <property name="build.dir" value="ant/build" />
+    <property name="user.language" value="ru" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-8\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="doc.dir" value="ant/doc" />
+    <property name="ant.project.name" value="Web3" />
+    <property name="build.webxml" value="ant/build/WEB-INF/web.xml" />
+    <property name="java.version" value="1.8.0-262" />
+    <property name="user.timezone" value="" />
+    <property name="resources.dir" value="src/main/resources" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-8\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="ant/build/WEB-INF/classes" />
+    <property name="junit.report.dir" value="reports" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-8\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.71-b10" />
+    <property name="user.variant" value="" />
+    <property name="web.dir" value="src/main/webapp" />
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="compile.version" value="17" />
+    <property name="user.home" value="C:\Users\lifep" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="src/test/java" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\lifep\product\21c\dbhomeXE\bin;C:\db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Gradle\gradle-6.7\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\PHP;C:\Program Files\nodejs\;C:\Program Files (x86)\apache-ant-1.10.12\bin;C:\Users\lifep\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\lifep\AppData\Local\Programs\Python\Python39\;C:\Users\lifep\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin;;C:\Program Files\PHP;;C:\Program Files\JetBrains\PhpStorm 2021.2.1\bin;;C:\Program Files\JetBrains\WebStorm 2021.2.1\bin;;C:\Program Files\JetBrains\CLion 2021.2.3\bin;;C:\Users\lifep\AppData\Roaming\npm;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CalculationTest skipNonTests=false filtertrace=true haltOnError=true haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\reports\TEST-CalculationTest.xml crashfile=C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\junitvmwatcher7595327213432303158.properties propsfile=C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\junit2016331715520320504.properties" />
+    <property name="java.class.path" value="C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\lib\junit-4.13.2.jar;C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\lib\hamcrest-core-1.3.jar;C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\ant\build\WEB-INF\classes;C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3\ant\build\test\classes;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib\ant-launcher.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib\ant-junit.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="main.dir" value="src/main/java" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\lifep\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="build.dir.lib" value="ant/build/WEB-INF/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\lifep\OneDrive\Documents\ClassWork-MSI-MSI\MiSPI\Lab3" />
+    <property name="server.deploy" value="/home/s312418/wildfly-for-helios/standalone/deployments" />
+    <property name="vm.args" value="&quot;-Xmx1024M&quot;" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src/main" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="junit" value="lib/junit-4.13.2.jar" />
+    <property name="server.launch" value="/home/s312418/wildfly-for-helios/bin/standalone.sh" />
+    <property name="project.dir" value="." />
+  </properties>
+  <testcase classname="CalculationTest" name="hitRectangleLowBorder" time="0.002" />
+  <testcase classname="CalculationTest" name="hitCircleArchBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitCircleFarBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitRectangle" time="0.0" />
+  <testcase classname="CalculationTest" name="missTriangleHBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitRectangleTopBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="missCircle" time="0.001" />
+  <testcase classname="CalculationTest" name="hitEmptySector" time="0.0" />
+  <testcase classname="CalculationTest" name="hitTriangleLowBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitCircleLowBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitTriangleTopBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="missTriangle" time="0.0" />
+  <testcase classname="CalculationTest" name="missRectangle" time="0.0" />
+  <testcase classname="CalculationTest" name="missRectangleFarTopBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="missRectangleLowBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitTriangleHBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="rSwitch" time="0.0" />
+  <testcase classname="CalculationTest" name="missCircleFarBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitTriangle" time="0.0" />
+  <testcase classname="CalculationTest" name="missRectangleTopBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitCircle" time="0.0" />
+  <testcase classname="CalculationTest" name="missTriangleLowBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="missCircleArchBorder" time="0.001" />
+  <testcase classname="CalculationTest" name="missCircleLowBorder" time="0.0" />
+  <testcase classname="CalculationTest" name="hitRectangleFarTopBorder" time="0.001" />
+  <testcase classname="CalculationTest" name="missTriangleTopBorder" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
