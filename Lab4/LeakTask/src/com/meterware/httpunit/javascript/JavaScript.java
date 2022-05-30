@@ -201,6 +201,9 @@ public class JavaScript {
                 e.printStackTrace();
                 throw new ScriptException( errorMessage );
             } else {
+                if (_errorMessages.size() >= 50) {
+                    _errorMessages.remove(0); // Leak fix
+                }
                 _errorMessages.add( errorMessage );
             }
         }

@@ -17,6 +17,7 @@ import com.meterware.servletunit.ServletRunner;
 import com.meterware.servletunit.ServletUnitClient;
 import java.io.IOException;
 import java.net.MalformedURLException;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.xml.sax.SAXException;
@@ -42,11 +43,10 @@ public class Main {
             ServletUnitClient sc = sr.newClient();
             int number = 1;
             WebRequest request = new GetMethodWebRequest("http://test.meterware.com/myServlet");
-            WebResponse response = sc.getResponse(request); // Fix
             while (true) {
-                // WebResponse response = sc.getResponse(request); // Leak!
+                WebResponse response = sc.getResponse(request);
                 System.out.println("Count: " + number++ + response);
-                java.lang.Thread.sleep(200);
+                java.lang.Thread.sleep(10);
             }
         } catch (InterruptedException ex) {
             Logger.getLogger("global").log(Level.SEVERE, null, ex);
